@@ -1,0 +1,8 @@
+ES7+ React/Redux/GraphQL/React-Native snippets :
+    rcc: Génère un composant React de classe avec un constructeur.
+    rce: Génère un composant React de classe avec une exportation.
+    rfc: Génère un composant React fonctionnel.
+    rfce: Génère un composant React fonctionnel avec une exportation.
+    useState: Génère le hook useState pour la gestion de l'état dans les composants fonctionnels.
+    useEffect: Génère le hook useEffect.
+
