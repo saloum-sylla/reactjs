@@ -1,0 +1,74 @@
+/* Styles pour le conteneur principal de l'application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Styles pour la barre de navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+/* Styles pour les liens de navigation */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* Styles pour le conteneur des pages */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles spécifiques pour la page Accueil */
+#accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Styles spécifiques pour la page À propos */
+#apropos {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media query pour la mise en page responsive */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
